@@ -72,31 +72,31 @@ body {
   .info1:hover {
     -moz-box-shadow: 0 0 10px #ccc;
     -webkit-box-shadow: 0 0 10px #ccc;
-    box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 20px #ccc;
   }
 
   .info2:hover {
     -moz-box-shadow: 0 0 10px #ccc;
     -webkit-box-shadow: 0 0 10px #ccc;
-    box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 20px #ccc;
   }
 
   .info3:hover {
     -moz-box-shadow: 0 0 10px #ccc;
     -webkit-box-shadow: 0 0 10px #ccc;
-    box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 20px #ccc;
   }
 
   .info4:hover {
     -moz-box-shadow: 0 0 10px #ccc;
     -webkit-box-shadow: 0 0 10px #ccc;
-    box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 20px #ccc;
   }
 
   .info5:hover {
     -moz-box-shadow: 0 0 10px #ccc;
     -webkit-box-shadow: 0 0 10px #ccc;
-    box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 20px #ccc;
   }
 
   .info1, .info2, .info3, .info4, .info5 {
@@ -120,6 +120,10 @@ body {
     border: 1px solid rgba(0, 0, 0, 0.33);
     border-radius: 5px;
     padding: 5px;
+  }
+
+  img:hover {
+    box-shadow:0 0 20px rgba(177, 105, 241, 0.938) ;
   }
 
   .contact {
