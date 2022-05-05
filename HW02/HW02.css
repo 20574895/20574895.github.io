@@ -3,3 +3,44 @@ nav {
     border-radius: 12px;
     margin: 20px;
 }
+
+/*style the icons*/
+.fa {
+color: white;
+}
+
+/*style the body*/
+body {
+    background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(185, 185, 185));
+}
+
+/*style the main heading*/
+h2 {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/*style the cards*/
+.card {
+    border-radius: 12px;
+    border-color: grey;
+    border-width: medium;
+    margin: 45px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.336), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card:hover {
+      transition: all 0.3s ease-out;
+      color: rgba(211, 184, 63, 0.8);
+      font-weight: bold;
+}
+
+.btn {
+    margin: 5px;
+}
+
+#btn2 {
+    background-color: rgb(89, 224, 89);
+    border-color: rgb(89, 224, 89);
+}

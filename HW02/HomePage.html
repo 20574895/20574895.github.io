@@ -1,90 +1,84 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <title>Page Title</title>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <!-- FontAwesome -->
 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 <link rel="stylesheet" href="HW02.css"
+<link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap">
 </head>
-<body>
+<body id="grad">
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
     <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="https://placeholder.pics/svg/150x50/888888/EEE/Logo" alt="..." height="36">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-        </ul>
-      </div>
+      <a class="navbar-brand">
+        <i class="fa fa-home" aria-hidden="true" style="font-size:36px"></i>
+      </a>  
+      <span 
+      <i class="fa fa-cart-plus" aria-hidden="true" style="font-size:36px"></i>
+      </span>
     </div>
   </nav>
 
-      <h2>Movies</h2>
+      <h2>Available Movies</h2>
 
-      <div class="row">
-        <div class="col-sm-6">
-      <div class="card" style="width: 18rem;">
+      <div class="container-fluid">
+        <div class="row"> 
+          <div class="col-xs-3">
+      <div class="card" style="width: 18rem;" id="movie1">
         <h5 class="card-title">Cinema 1</h5>
-        <img class="card-img-top" src="" alt="Card image cap">
-        <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Show Details</a>
-          <a href="#" class="btn btn-primary">Book Ticket</a>
+        <img src="https://images.app.goo.gl/da22usNM3AaXaC7T6" class="card-img-top" id="image1">
+        <div class="card-body"
+          <p class="card-text">While playing, Lucy and her siblings find a wardrobe that lands them in a mystical place called Narnia. Here they realise that it was fated and they must now unite with Aslan to defeat an evil queen.</p>
+          <a href="#" id=btn1 class="btn btn-primary">Show Details</a>
+          <a href="#" id=btn2 class="btn btn-primary">Book Ticket</a>
         </div>
       </div>
-    </div>
-</div>
-
-      <div class="row">
-        <div class="col-sm-6">
-      <div class="card" style="width: 18rem;">
+      </div>
+    
+    <div class="row">
+      <div class="col-xs-3">
+      <div class="card" style="width: 18rem;" id="movie2">
         <h5 class="card-title">Cinema 2</h5>
-        <img class="card-img-top" src="" alt="Card image cap">
-        <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Show Details</a>
-          <a href="#" class="btn btn-primary">Book Ticket</a>
+        <img src="https://images.app.goo.gl/jiQh5NdeTW5xNaY76" class="card-img-top" id="image2">
+        <div class="card-body"
+          <p class="card-text">Thomas Anderson, a computer programmer, is led to fight an underground war against powerful computers who have constructed his entire reality with a system called the Matrix.</p>
+          <a href="#" id=btn1 class="btn btn-primary">Show Details</a>
+          <a href="#" id=btn2 class="btn btn-primary">Book Ticket</a>
         </div>
       </div>
-    </div>
-</div>
+      </div>
 
-      <div class="row">
-        <div class="col-sm-6">
-      <div class="card" style="width: 18rem;">
+    <div class="row">
+      <div class="col-xs-3">
+      <div class="card" style="width: 18rem;" id="movie3">
         <h5 class="card-title">Cinema 3</h5>
-        <img class="card-img-top" src="" alt="Card image cap">
-        <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Show Details</a>
-          <a href="#" class="btn btn-primary">Book Ticket</a>
+        <img src="https://images.app.goo.gl/jiQh5NdeTW5xNaY76" class="card-img-top" id="image3">
+        <div class="card-body"
+          <p class="card-text">Duke reads the story of Allie and Noah, two lovers who were separated by fate, to Ms Hamilton, an old woman who suffers from dementia, on a daily basis out of his notebook.</p>
+          <a href="#" id=btn1 class="btn btn-primary">Show Details</a>
+          <a href="#" id=btn2 class="btn btn-primary">Book Ticket</a>
         </div>
       </div>
     </div>
-</div>
 
       <div class="row">
-        <div class="col-sm-6">
-      <div class="card" style="width: 18rem;">
+        <div class="col-xs-3">
+      <div class="card" style="width: 18rem;" id="movie4">
         <h5 class="card-title">Cinema 4</h5>
-        <img class="card-img-top" src="" alt="Card image cap">
-        <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Show Details</a>
-          <a href="#" class="btn btn-primary">Book Ticket</a>
+        <img src="https://images.app.goo.gl/jiQh5NdeTW5xNaY76" class="card-img-top" id="image4">
+        <div class="card-body"
+          <p class="card-text">When New York editor Margaret faces deportation, she convinces her assistant Andrew to marry her in return for a promotion. However, when she visits his hometown, it changes her in many ways.</p>
+          <a href="#" id=btn1 class="btn btn-primary">Show Details</a>
+          <a href="#" id=btn2 class="btn btn-primary">Book Ticket</a>
         </div>
       </div>
+      </div>
     </div>
-</div>
 
 </body>
 <script src="HW02.js"></script>
