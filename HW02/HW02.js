@@ -56,20 +56,42 @@ let movies4 = [
 
  function movieInfo1() {
      for (var i = 0; i < 10; i++)
-     movies1 = document.getElementById("movie1").innerHTML;
+     movies1 = document.getElementById("movie1").value;
  }
 
  function movieInfo2() {
     for (var i = 0; i < 10; i++)
-    movies2 = document.getElementById("movie2").innerHTML;
+    movies2 = document.getElementById("movie2").value;
 }
 
 function movieInfo3() {
     for (var i = 0; i < 10; i++)
-    movies3 = document.getElementById("movie3").innerHTML;
+    movies3 = document.getElementById("movie3").value;
 }
 
 function movieInfo4() {
     for (var i = 0; i < 10; i++)
-    movies4 = document.getElementById("movie4").innerHTML;
+    movies4 = document.getElementById("movie4").value;
 }
+
+//increment number next to cart
+var $button = document.querySelector('.increment-btn');
+var $counter = document.querySelector('.counter');
+
+$button.addEventListener('click', function(){
+  $counter.value = parseInt($counter.value) + 1; // `parseInt` converts the `value` from a string to a number
+}, false);
+
+//delete rows in Cart
+function deleteRow(r) {
+    var i = r.parentNode.parentNode.rowIndex;
+    document.getElementById("table1").deleteRow(i);
+  }
+
+  //calculate total cost
+  $('#val1, #val2').change(function(){
+    var val1 = parseFloat($('#val1').val()) || 0;
+    var val2 = parseFloat($('#val2').val()) || 0;
+
+    $('#val3').val(val1 * val2);    
+});

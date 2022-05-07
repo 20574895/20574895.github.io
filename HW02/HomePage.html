@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Page Title</title>
+<title>Home Page</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -16,11 +16,12 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
     <div class="container">
       <a class="navbar-brand">
-        <i class="fa fa-home" aria-hidden="true" style="font-size:36px"></i>
+        <i class="fa fa-home" aria-hidden="true"  onclick="HomePage.html" style="font-size:36px"></i>
       </a>  
-      <span 
-      <i class="fa fa-cart-plus" aria-hidden="true" style="font-size:36px"></i>
-      </span>
+      <i class="fas fa fa-shopping-cart fa-lg" onclick="CartPage.html"></i>
+          <span class="counter" id="basket1">
+            0
+          </span>
     </div>
   </nav>
 
@@ -34,8 +35,33 @@
         <img src="https://images.app.goo.gl/da22usNM3AaXaC7T6" class="card-img-top" id="image1">
         <div class="card-body"
           <p class="card-text">While playing, Lucy and her siblings find a wardrobe that lands them in a mystical place called Narnia. Here they realise that it was fated and they must now unite with Aslan to defeat an evil queen.</p>
-          <a href="#" id=btn1 class="btn btn-primary">Show Details</a>
-          <a href="#" id=btn2 class="btn btn-primary">Book Ticket</a>
+          <a href="#" id=btn2 class="btn btn-primary" id="bookbtn1">Book Ticket</a>
+          <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal">Show Details</button>
+          <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+          
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Narnia: The Lion, the Witch and the Wardrobe</h4>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    <ul style="list-style-type:none;">
+                      <li>Title: Narnia: The Lion, the Witch and the Wardrobe</li>
+                      <li>Director/s: Andrew Adamson and Michael Apted</li>
+                      <li>Release Year: 2005</li>
+                      <li>Runtime: 2h 30m</li>
+                    </ul>
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       </div>
@@ -47,8 +73,33 @@
         <img src="https://images.app.goo.gl/jiQh5NdeTW5xNaY76" class="card-img-top" id="image2">
         <div class="card-body"
           <p class="card-text">Thomas Anderson, a computer programmer, is led to fight an underground war against powerful computers who have constructed his entire reality with a system called the Matrix.</p>
-          <a href="#" id=btn1 class="btn btn-primary">Show Details</a>
           <a href="#" id=btn2 class="btn btn-primary">Book Ticket</a>
+          <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal">Show Details</button>
+          <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+          
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">The Matrix</h4>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    <ul style="list-style-type:none;">
+                      <li>Title: The Matrix</li>
+                      <li>Director/s: Lana Wachowski and Lilly Wachowski</li>
+                      <li>Release Year: 1999</li>
+                      <li>Runtime: 2h 27m</li>
+                    </ul>
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       </div>
@@ -60,8 +111,33 @@
         <img src="https://images.app.goo.gl/jiQh5NdeTW5xNaY76" class="card-img-top" id="image3">
         <div class="card-body"
           <p class="card-text">Duke reads the story of Allie and Noah, two lovers who were separated by fate, to Ms Hamilton, an old woman who suffers from dementia, on a daily basis out of his notebook.</p>
-          <a href="#" id=btn1 class="btn btn-primary">Show Details</a>
           <a href="#" id=btn2 class="btn btn-primary">Book Ticket</a>
+          <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal">Show Details</button>
+          <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+          
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">The Notebook</h4>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    <ul style="list-style-type:none;">
+                      <li>Title: The Notebook</li>
+                      <li>Director/s: Nick Cassavetes</li>
+                      <li>Release Year: 2004</li>
+                      <li>Runtime: 2h 04m</li>
+                    </ul>
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -73,8 +149,33 @@
         <img src="https://images.app.goo.gl/jiQh5NdeTW5xNaY76" class="card-img-top" id="image4">
         <div class="card-body"
           <p class="card-text">When New York editor Margaret faces deportation, she convinces her assistant Andrew to marry her in return for a promotion. However, when she visits his hometown, it changes her in many ways.</p>
-          <a href="#" id=btn1 class="btn btn-primary">Show Details</a>
           <a href="#" id=btn2 class="btn btn-primary">Book Ticket</a>
+          <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal">Show Details</button>
+          <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+          
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">The Proposal</h4>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    <ul style="list-style-type:none;">
+                      <li>Title: Narnia: The Proposal</li>
+                      <li>Director/s: Anne Fletcher</li>
+                      <li>Release Year: 2009</li>
+                      <li>Runtime: 1h 48m</li>
+                    </ul>
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       </div>
