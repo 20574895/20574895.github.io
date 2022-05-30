@@ -54,6 +54,11 @@ let movies4 = [
         tickets_in_cart4: ""  
     }]
 
+    localStorage.setItem("movies1", movies1);
+    localStorage.setItem("movies2", movies2);
+    localStorage.setItem("movies3", movies3);
+    localStorage.setItem("movies4", movies4);
+
  function movieInfo1() {
      for (var i = 0; i < 10; i++)
      movies1 = document.getElementById("movie1").value;
